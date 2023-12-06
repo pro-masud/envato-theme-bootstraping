@@ -1,4 +1,6 @@
 <?php
+// version checked 
+define("VERSION", wp_get_theme()->get("Version"));
 function aximo_theme_setup() {
     load_theme_textdomain("aximo");
     add_theme_support("post-thumbnails");
@@ -7,5 +9,9 @@ function aximo_theme_setup() {
     add_theme_support("post-formats", ["image", "gallery", "quote", "audio", "video", "link"]);
     add_editor_style("/assets/css/editor-style.css");
 }
-
 add_action("after_setup_theme", "aximo_theme_setup");
+
+function aximo_assets(){
+    wp_enqueue_style("google-fonts", "//fonts.googleapis.com/css2?family=Arimo:wght@600;700&family=Familjen+Grotesk:wght@600;700&family=Inter:wght@400;600&family=Libre+Baskerville:wght@700&family=Syne:wght@600;700&display=swap", null, VERSION);
+}
+add_action("wp_enqueue_scripts", "aximo_assets");

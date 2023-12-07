@@ -1,1059 +1,647 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php get_header(); ?>
+<div class="aximo-all-section bg-light2">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-  <?php wp_head(); ?>
-</head>
-
-<body class="light">
-
-  <!-- <div class="aximo-preloader-wrap">
-    <div class="aximo-preloader">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+<div class="aximo-hero-section2">
+  <div class="container position-relative">
+    <div class="aximo-hero-content2">
+      <h1>
+        Start your business growth journey with us
+      </h1>
+      <p>We believe in the power of innovation and are passionate about helping startups thrive. As a startup company, we are a dynamic and innovative organization that provides comprehensive support, guidance and resources to early stage startups.</p>
+      <div class="aximo-hero-btn-wrap">
+        <a class="aximo-default-btn wow fadeInUpX" data-wow-delay="0.1s" href="contact-us.html">
+          <span class="aximo-label-up">Get In Touch</span>
+          <span class="aximo-label-up">Get In Touch</span>
+        </a>
+        <a class="aximo-default-btn aximo-default-btn-outline wow fadeInUpX" data-wow-delay="0.2s" href="service.html">
+          <span class="aximo-label-up">Explore Our Services</span>
+          <span class="aximo-label-up">Explore Our Services</span>
+        </a>
+      </div>
     </div>
-  </div> -->
+    <div class="aximo-hero-shape1">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/shape1.png" alt="">
+    </div>
+    <div class="aximo-hero-shape2">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/shape-star.png" alt="">
+    </div>
+  </div>
+  <div class="aximo-hero-thumb-wrap">
+    <div class="aximo-hero-thumb-item wow fadeInUpX" data-wow-delay="0s">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb1.png" alt="">
+    </div>
+    <div class="aximo-hero-thumb-item wow fadeInUpX" data-wow-delay="0.1s">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb2.png" alt="">
+    </div>
+    <div class="aximo-hero-thumb-item wow fadeInUpX" data-wow-delay="0.2s">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb3.png" alt="">
+    </div>
+    <div class="aximo-hero-thumb-item wow fadeInUpX" data-wow-delay="0.3s">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb4.png" alt="">
+    </div>
+    <div class="aximo-hero-thumb-item wow fadeInUpX" data-wow-delay="0.4s">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb5.png" alt="">
+    </div>
+  </div>
+</div>
+<!-- End sction -->
 
-
-
-
-  <header class="site-header aximo-header-section aximo-header1 dark-bg" id="sticky-menu">
-    <div class="container">
-      <nav class="navbar site-navbar">
-        <!-- Brand Logo-->
-        <div class="brand-logo">
-          <a href="index.html">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo-white.svg" alt="" class="light-version-logo">
-          </a>
+<div class="aximo-brandlogo-section extra-side-margin">
+  <div class="aximo-brandlogo-title">
+    <p>We’ve helped over 200+ startups grow their business around the world</p>
+  </div>
+  <div class="swiper aximo-auto-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_1.png" alt="">
         </div>
-        <div class="menu-block-wrapper">
-          <div class="menu-overlay"></div>
-          <nav class="menu-block" id="append-menu-header">
-            <div class="mobile-menu-head">
-              <div class="go-back">
-                <i class="fa fa-angle-left"></i>
-              </div>
-              <div class="current-menu-title"></div>
-              <div class="mobile-menu-close">&times;</div>
-            </div>
-            <ul class="site-menu-main">
-              <li class="nav-item nav-item-has-children">
-                <a href="#" class="nav-link-item drop-trigger">Demo <i class="fas fa-angle-down"></i></a>
-                <ul class="sub-menu" id="submenu-1">
-                  <li class="sub-menu--item">
-                    <a href="index.html">
-                      <span class="menu-item-text">Design Agency</span>
-                    </a>
-                  </li>
-                  <li class="sub-menu--item">
-                    <a href="index-02.html">
-                      <span class="menu-item-text">Startup Agency</span>
-                    </a>
-                  </li>
-                  <li class="sub-menu--item">
-                    <a href="index-03.html">
-                      <span class="menu-item-text">SEO Agency</span>
-                    </a>
-                  </li>
-                  <li class="sub-menu--item">
-                    <a href="index-04.html">
-                      <span class="menu-item-text">Business Consultation</span>
-                    </a>
-                  </li>
-                  <li class="sub-menu--item">
-                    <a href="index-05.html">
-                      <span class="menu-item-text">Digital Marketing</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="about-us.html" class="nav-link-item">About Us</a>
-              </li>
-              <li class="nav-item nav-item-has-children">
-                <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i></a>
-                <ul class="sub-menu" id="submenu-2">
-                  <li class="sub-menu--item">
-                    <a href="about-us.html">
-                      <span class="menu-item-text">About Us</span>
-                    </a>
-                  </li>
-                  <li class="sub-menu--item">
-                    <a href="pricing.html">
-                      <span class="menu-item-text">Pricing</span>
-                    </a>
-                  </li>
-                  <li class="sub-menu--item nav-item-has-children">
-                    <a href="#" data-menu-get="h3" class="drop-trigger">blog <i class="fas fa-angle-down"></i></a>
-                    <ul class="sub-menu shape-none" id="submenu-3">
-                      <li class="sub-menu--item">
-                        <a href="blog.html">
-                          <span class="menu-item-text">Our Blog</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="blog-grid.html">
-                          <span class="menu-item-text">Blog grid</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="single-blog.html">
-                          <span class="menu-item-text">blog details</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="sub-menu--item nav-item-has-children">
-                    <a href="#" data-menu-get="h3" class="drop-trigger">Service<i class="fas fa-angle-down"></i>
-                    </a>
-                    <ul class="sub-menu shape-none" id="submenu-4">
-                      <li class="sub-menu--item">
-                        <a href="service.html">
-                          <span class="menu-item-text">service</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="single-service.html">
-                          <span class="menu-item-text">service details</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="sub-menu--item nav-item-has-children">
-                    <a href="#" data-menu-get="h3" class="drop-trigger">Team<i class="fas fa-angle-down"></i>
-                    </a>
-                    <ul class="sub-menu shape-none" id="submenu-5">
-                      <li class="sub-menu--item">
-                        <a href="team.html">
-                          <span class="menu-item-text">team</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="single-team.html">
-                          <span class="menu-item-text">team details</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="sub-menu--item nav-item-has-children">
-                    <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio<i class="fas fa-angle-down"></i>
-                    </a>
-                    <ul class="sub-menu shape-none" id="submenu-6">
-                      <li class="sub-menu--item">
-                        <a href="portfolio-02.html">
-                          <span class="menu-item-text">Portfolio One Column</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="portfolio-01.html">
-                          <span class="menu-item-text">Portfolio Two Column</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="single-portfolio.html">
-                          <span class="menu-item-text">Single Portfolio</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="sub-menu--item nav-item-has-children">
-                    <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
-                    </a>
-                    <ul class="sub-menu shape-none" id="submenu-7">
-                      <li class="sub-menu--item">
-                        <a href="faq.html">
-                          <span class="menu-item-text">faq</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="errors-404.html">
-                          <span class="menu-item-text">Error 404</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="testimonial.html">
-                          <span class="menu-item-text">testimonial</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="coming-soon.html">
-                          <span class="menu-item-text">Coming Soon</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="sub-menu--item nav-item-has-children">
-                    <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
-                    </a>
-                    <ul class="sub-menu shape-none" id="submenu-8">
-                      <li class="sub-menu--item">
-                        <a href="sign-up.html">
-                          <span class="menu-item-text">sign up</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="sign-in.html">
-                          <span class="menu-item-text">sign in</span>
-                        </a>
-                      </li>
-                      <li class="sub-menu--item">
-                        <a href="reset-password.html">
-                          <span class="menu-item-text">reset password</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item nav-item-has-children">
-                <a href="#" class="nav-link-item drop-trigger">Blog <i class="fas fa-angle-down"></i></a>
-                <ul class="sub-menu" id="submenu-9">
-                  <li class="sub-menu--item">
-                    <a href="blog.html">
-                      <span class="menu-item-text">blog</span>
-                    </a>
-                  </li>
-                  <li class="sub-menu--item">
-                    <a href="blog-grid.html">
-                      <span class="menu-item-text">Blog grid</span>
-                    </a>
-                  </li>
-                  <li class="sub-menu--item">
-                    <a href="single-blog.html">
-                      <span class="menu-item-text">blog Details</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="contact-us.html" class="nav-link-item">Contact Us</a>
-              </li>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_2.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_3.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_4.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_5.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_6.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_7.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_1.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_2.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_3.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_4.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_5.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_6.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_7.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_1.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_2.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_3.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_4.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_5.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_6.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="aximo-brandlogo-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/b_7.png" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- end section -->
+
+<div class="section bg-light2 aximo-section-padding3 position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="aximo-section-title clash-grotesk">
+          <h2>
+            Features that set us apart from others
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-6">
+        <div class="aximo-iconbox-wrap2 wow fadeInUpX" data-wow-delay="0.1s">
+          <div class="aximo-iconbox-icon2">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/illustrator1.png" alt="">
+          </div>
+          <div class="aximo-iconbox-data2">
+            <h3>Reduce Uncertainty</h3>
+            <p>By adopting and implementing strategies, we not only help survive but also thrive in the face of uncertainty.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <div class="aximo-iconbox-wrap2 wow fadeInUpX" data-wow-delay="0.2s">
+          <div class="aximo-iconbox-data2">
+            <h3>Innovative Ideas</h3>
+            <p>Our aim is to disrupt existing industries or create entirely new ones with our talents and innovative business ideas.</p>
+          </div>
+          <div class="aximo-iconbox-icon2 bottom">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/illustrator2.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <div class="aximo-iconbox-wrap2 wow fadeInUpX" data-wow-delay="0.3s">
+          <div class="aximo-iconbox-icon2">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/illustrator3.png" alt="">
+          </div>
+          <div class="aximo-iconbox-data2">
+            <h3>Growth Focus</h3>
+            <p>Growth is a central objective for us. We’ve also a strong emphasis on rapid growth and scaling business growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="aximo-shape">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/shape2.png" alt="">
+  </div>
+</div>
+<!-- End section -->
+
+<div class="aximo-about-section bg-orange extra-side-margin">
+  <div id="aximo-counter"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="aximo-thumb" id="rotatetwo">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/thumb.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="aximo-default-content clash-grotesk">
+          <h2>We help empower visionary founders</h2>
+          <p>We provide comprehensive support, guidance to early stage startups & entrepreneurs. Our mission is to help transform breakthrough ideas into successful and sustainable businesses.</p>
+        </div>
+        <div class="aximo-counter-wrap2">
+          <div class="aximo-counter-data2">
+            <h2><span data-percentage="35" class="aximo-counter"></span>+</h2>
+            <p>Years of experience</p>
+          </div>
+          <div class="aximo-counter-data2">
+            <h2><span data-percentage="84" class="aximo-counter"></span>k</h2>
+            <p>Active monthly users</p>
+          </div>
+          <div class="aximo-counter-data2">
+            <h2><span data-percentage="20" class="aximo-counter"></span>k</h2>
+            <p>Project completed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<!-- End section -->
+
+<div class="section aximo-section-padding position-relative">
+  <div class="container">
+    <div class="aximo-section-title center clash-grotesk">
+      <h2>
+        Services to increase chances of success
+      </h2>
+    </div>
+  </div>
+  <div class="aximo-increase-shape">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/shape-star.png" alt="">
+  </div>
+  <div class="aximo-service-increase-wrap">
+    <div class="aximo-service-increase-row">
+      <div class="aximo-service-increase-item">
+        <img class="swipeimage" src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb1.png" alt="">
+        <div class="aximo-service-increase-title">
+          <h3>Product Development:</h3>
+        </div>
+        <div class="aximo-service-increase-body">
+          <p>We are focused on developing innovative products services. We research and development to create new solutions.</p>
+        </div>
+        <a href="single-service.html" class="aximo-service-increase-icon">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="aximo-service-increase-row">
+      <div class="aximo-service-increase-item">
+        <img class="swipeimage" src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb2.png" alt="">
+        <div class="aximo-service-increase-title">
+          <h3>Consulting & Advisory:</h3>
+        </div>
+        <div class="aximo-service-increase-body">
+          <p>Our expertise in various fields, such as management, finance, marketing, or technology, to help businesses solve problems.</p>
+        </div>
+        <a href="single-service.html" class="aximo-service-increase-icon">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="aximo-service-increase-row">
+      <div class="aximo-service-increase-item">
+        <img class="swipeimage" src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb3.png" alt="">
+        <div class="aximo-service-increase-title">
+          <h3>Investment and Equity:</h3>
+        </div>
+        <div class="aximo-service-increase-body">
+          <p>We invest in startups or take an equity stake in exchange or direct investment or have their own seed funds to support.</p>
+        </div>
+        <a href="single-service.html" class="aximo-service-increase-icon">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="aximo-service-increase-row">
+      <div class="aximo-service-increase-item">
+        <img class="swipeimage" src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb4.png" alt="">
+        <div class="aximo-service-increase-title">
+          <h3>Co-Working Spaces:</h3>
+        </div>
+        <div class="aximo-service-increase-body">
+          <p>We provide co-working spaces or office facilities for startups can work, collaborate, and access essential resources.</p>
+        </div>
+        <a href="single-service.html" class="aximo-service-increase-icon">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="aximo-service-increase-row">
+      <div class="aximo-service-increase-item">
+        <img class="swipeimage" src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/h-thumb5.png" alt="">
+        <div class="aximo-service-increase-title">
+          <h3>Legal & Administrative:</h3>
+        </div>
+        <div class="aximo-service-increase-body">
+          <p>Offer legal and administrative assistance, helping startups with tasks like business registration, intellectual property etc.</p>
+        </div>
+        <a href="single-service.html" class="aximo-service-increase-icon">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End section -->
+
+<div class="aximo-video-section extra-side-margin wow fadeInUpX" data-wow-delay="0s">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/video-bg.png" alt="">
+  <a class="aximo-video-popup play-btn-size video-init" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/play-btn.png" alt="">
+    <div class="waves wave-1"></div>
+    <div class="waves wave-2"></div>
+    <div class="waves wave-3"></div>
+  </a>
+</div>
+<!-- End section -->
+
+<div class="section aximo-section-padding3 position-relative">
+  <div class="container">
+    <div class="aximo-section-title center clash-grotesk">
+      <h2>
+        Simple pricing plans that save you money
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="aximo-pricing-wrap wow fadeInUpX" data-wow-delay="0.1s">
+          <div class="aximo-pricing-header">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/pricing-icon1.png" alt="">
+            <h3>Basic</h3>
+          </div>
+          <div class="aximo-pricing-price">
+            <h2>$19.00</h2>
+          </div>
+          <div class="aximo-pricing-body">
+            <ul>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">90 mins session duration</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Multiple modes of networking</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Live event engagement</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Pre-set emails</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Real-time data & basic reports</li>
             </ul>
-          </nav>
-        </div>
-
-        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-          <a class="aximo-default-btn pill aximo-header-btn" href="contact-us.html">
-            Contact Us
-          </a>
-        </div>
-        <!-- mobile menu trigger -->
-        <div class="mobile-menu-trigger light">
-          <span></span>
-        </div>
-        <!--/.Mobile Menu Hamburger Ends-->
-      </nav>
-    </div>
-  </header>
-  <!--End landex-header-section -->
-
-
-
-  <div class="aximo-hero-section dark-bg">
-    <div class="container position-relative">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="aximo-hero-content">
-            <h1>
-              <span class="aximo-title-animation">
-                A creative
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star.png" alt="">
-              </span>
-              design studio
-            </h1>
-            <p>We're a creative design studio specializing in meeting the needs of the new generation. We offer innovative and cutting-edge design solutions to help our clients stand out in today's fast-paced.</p>
-            <div class="aximo-hero-user-wrap">
-              <div class="aximo-hero-user-thumb">
-                <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0s">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/user1.png" alt="">
-                </div>
-                <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0.25s">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/user3.png" alt="">
-                </div>
-                <div class="aximo-hero-user-thumb-item wow fadeInUpX" data-wow-delay="0.4s">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/user2.png" alt="">
-                </div>
-              </div>
-              <div class="aximo-hero-user-data">
-                <p>Believed by more than a thousand people</p>
-              </div>
-            </div>
-            <a class="aximo-call-btn" href="contact-us.html">Book a free consultation <i class="icon-call"></i></a>
-            <div class="aximo-hero-shape">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/shape1.png" alt="">
-            </div>
           </div>
+          <a class="aximo-default-btn aximo-pricing-btn" href="pricing.html">Purchase It Now</a>
         </div>
-        <div class="col-lg-4">
-          <div class="aximo-hero-thumb wow fadeInRight" data-wow-delay="0s">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/hero-thumb.png" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="aximo-pricing-wrap wow fadeInUpX" data-wow-delay="0.2s">
+          <div class="aximo-pricing-header">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/pricing-icon2.png" alt="">
+            <h3>Startup</h3>
           </div>
+          <div class="aximo-pricing-price">
+            <h2>$29.99</h2>
+          </div>
+          <div class="aximo-pricing-body">
+            <ul>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Advanced networking modes</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Unlimited session duration</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Custom event branding</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Advanced analytics report</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Leaderboard & gamification</li>
+            </ul>
+          </div>
+          <a class="aximo-default-btn aximo-pricing-btn active" href="pricing.html">Purchase It Now</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="aximo-pricing-wrap wow fadeInUpX" data-wow-delay="0.3s">
+          <div class="aximo-pricing-header">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/pricing-icon3.png" alt="">
+            <h3>Enterprise</h3>
+          </div>
+          <div class="aximo-pricing-price">
+            <h2>$49.99</h2>
+          </div>
+          <div class="aximo-pricing-body">
+            <ul>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Advanced networking modes</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Dedicated account manager</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">3D event experiences</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Mobile app & website create</li>
+              <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/like.svg" alt="">Personalization & branding</li>
+            </ul>
+          </div>
+          <a class="aximo-default-btn aximo-pricing-btn" href="pricing.html">Purchase It Now</a>
         </div>
       </div>
     </div>
   </div>
-  <!-- End section -->
 
-  <div class="section aximo-section-padding4">
-    <div class="container">
-      <div class="aximo-section-title center">
-        <h2>
-          We provide effective
-          <span class="aximo-title-animation">
-            design solutions
-            <span class="aximo-title-icon">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star2.png" alt="">
-            </span>
-          </span>
-        </h2>
-      </div>
-      <div class="aximo-service-wrap">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="aximo-iconbox-wrap wow fadeInUpX" data-wow-delay="0.1s">
-              <div class="aximo-iconbox-icon">
-                <i class="icon-design-tools"></i>
-              </div>
-              <div class="aximo-iconbox-data">
-                <h3>UI/UX Design</h3>
-                <p>Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.</p>
-                <a class="aximo-icon" href="service.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-right.svg" alt=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="aximo-iconbox-wrap wow fadeInUpX" data-wow-delay="0.2s">
-              <div class="aximo-iconbox-icon">
-                <i class="icon-branding"></i>
-              </div>
-              <div class="aximo-iconbox-data">
-                <h3>Graphic Design</h3>
-                <p>Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.</p>
-                <a class="aximo-icon" href="service.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-right.svg" alt=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="aximo-iconbox-wrap wow fadeInUpX" data-wow-delay="0.3s">
-              <div class="aximo-iconbox-icon">
-                <i class="icon-web"></i>
-              </div>
-              <div class="aximo-iconbox-data">
-                <h3>Web Design</h3>
-                <p>Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.</p>
-                <a class="aximo-icon" href="service.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-right.svg" alt=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="aximo-iconbox-wrap wow fadeInUpX" data-wow-delay="0.4s">
-              <div class="aximo-iconbox-icon">
-                <i class="icon-design-thinking"></i>
-              </div>
-              <div class="aximo-iconbox-data">
-                <h3>Motion Graphics</h3>
-                <p>Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.</p>
-                <a class="aximo-icon" href="service.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-right.svg" alt=""></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="aximo-pricing-shape">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/shape3.png" alt="">
   </div>
-  <!-- End section -->
+</div>
+<!-- End section -->
 
-  <div class="section aximo-section-padding">
-    <div id="aximo-counter"></div>
-    <div class="container">
-      <div class="aximo-section-title">
-        <div class="row">
-          <div class="col-lg-7">
-            <h2>
-              <span class="aximo-title-animation">
-                We make your
-                <span class="aximo-title-icon">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star2.png" alt="">
-                </span>
-              </span>
-              business stand out
-            </h2>
-          </div>
-          <div class="col-lg-4 offset-lg-1 d-flex align-items-center">
-            <p>We work closely with our clients to know their objectives, target audience, unique needs, and practical design solutions.</p>
-          </div>
+<div class="bg-orange aximo-section-padding extra-side-margin">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="aximo-default-content clash-grotesk aximo-sticky">
+          <h2>Appreciation from our loving clients</h2>
+          <p>It's wonderful to hear that our clients appreciate our services! Client appreciation is valuable proof of the quality of our work.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="aximo-video-wrap wow fadeInUpX" data-wow-delay="0s">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/video-bg.png" alt="">
-            <a class="aximo-video-popup play-btn1 video-init" href="https://www.youtube.com/watch?v=Vx2aLNgGoAE">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/play-btn.svg" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="aximo-counter-wrap">
-            <div class="aximo-counter-data">
-              <h2 class="aximo-counter-number"><span data-percentage="15" class="aximo-counter"></span>+</h2>
-              <p>Years of experience</p>
-            </div>
-            <div class="aximo-counter-data">
-              <h2 class="aximo-counter-number"><span data-percentage="120" class="aximo-counter"></span>k</h2>
-              <p>Successful projects</p>
-            </div>
-            <div class="aximo-counter-data">
-              <h2 class="aximo-counter-number"><span data-percentage="100" class="aximo-counter"></span>%</h2>
-              <p>Client satisfaction rate</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End section -->
-
-  <div class="section dark-bg aximo-section-padding">
-    <div class="container">
-      <div class="aximo-section-title center light">
-        <h2>
-          Have a wide range of
-          <span class="aximo-title-animation">
-            creative projects
-            <span class="aximo-title-icon">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star2.png" alt="">
-            </span>
-          </span>
-        </h2>
-      </div>
-    </div>
-    <div class="swiper aximo-project-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="aximo-project-thumb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/project1.png" alt="">
-            <div class="aximo-project-wrap">
-              <div class="aximo-project-data">
-                <a href="single-portfolio.html">
-                  <h3>Product Design</h3>
-                </a>
-                <p>Developing the look and feel of physical products, aesthetics, and functionality.</p>
-              </div>
-              <a class="aximo-project-icon" href="single-portfolio.html">
-                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-project-thumb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/project2.png" alt="">
-            <div class="aximo-project-wrap">
-              <div class="aximo-project-data">
-                <a href="single-portfolio.html">
-                  <h3>Logo and Branding</h3>
-                </a>
-                <p>Creating or refreshing a company's logo and developing a cohesive visual identity.</p>
-              </div>
-              <a class="aximo-project-icon" href="single-portfolio.html">
-                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-project-thumb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/project3.png" alt="">
-            <div class="aximo-project-wrap">
-              <div class="aximo-project-data">
-                <a href="single-portfolio.html">
-                  <h3>App UI/UX Design</h3>
-                </a>
-                <p>Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.</p>
-              </div>
-              <a class="aximo-project-icon" href="single-portfolio.html">
-                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-project-thumb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/project4.png" alt="">
-            <div class="aximo-project-wrap">
-              <div class="aximo-project-data">
-                <a href="single-portfolio.html">
-                  <h3>Packaging Design</h3>
-                </a>
-                <p>Creating packaging solutions for products that not only protect attract customers on store.</p>
-              </div>
-              <a class="aximo-project-icon" href="single-portfolio.html">
-                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-project-thumb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/project1.png" alt="">
-            <div class="aximo-project-wrap">
-              <div class="aximo-project-data">
-                <a href="single-portfolio.html">
-                  <h3>Product Design</h3>
-                </a>
-                <p>Developing the look and feel of physical products, aesthetics, and functionality.</p>
-              </div>
-              <a class="aximo-project-icon" href="single-portfolio.html">
-                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-project-thumb">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/project2.png" alt="">
-            <div class="aximo-project-wrap">
-              <div class="aximo-project-data">
-                <a href="single-portfolio.html">
-                  <h3>Logo and Branding</h3>
-                </a>
-                <p>Creating or refreshing a company's logo and developing a cohesive visual identity.</p>
-              </div>
-              <a class="aximo-project-icon" href="single-portfolio.html">
-                <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-  <!-- End section -->
-
-  <div class="section">
-    <div class="container">
-      <div class="aximo-faq-wrap">
-        <div class="row">
-          <div class="col-lg-7 d-flex align-items-center">
-            <div class="aximo-default-content">
-              <h2>
-                <span class="aximo-title-animation">
-                  Our high-quality
-                  <span class="aximo-title-icon">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star2.png" alt="">
-                  </span>
-                </span>
-                working processes
-              </h2>
-              <p>We focus at every stage on effective communication and collaboration between the client and ensuring that the final design meets the client's objectives and expectations.</p>
-              <p>It is important to note that these are simplified steps, and the actual work process may vary depending on the complexity of the project.</p>
-            </div>
-          </div>
-          <div class="col-lg-5">
-            <div class="aximo-accordion-wrap wow fadeInUpX" data-wow-delay="0s" id="aximo-accordion">
-              <div class="aximo-accordion-item open">
-                <div class="aximo-accordion-header">
-                  <h3>01/ Project idea</h3>
-                </div>
-                <div class="aximo-accordion-body">
-                  <p>The process starts with a detailed discussion with the client to understand their idea & goals.</p>
-                </div>
-              </div>
-              <div class="aximo-accordion-item">
-                <div class="aximo-accordion-header">
-                  <h3>02/ Brainstorming</h3>
-                </div>
-                <div class="aximo-accordion-body">
-                  <p>Brainstorming is a group creativity technique in which members attempt to find a conclusion.</p>
-                </div>
-              </div>
-              <div class="aximo-accordion-item">
-                <div class="aximo-accordion-header">
-                  <h3>03/ Launch</h3>
-                </div>
-                <div class="aximo-accordion-body">
-                  <p>The completed design assets or final product are delivered with necessary documentation.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End section -->
-
-  <div class="section aximo-section-padding3">
-    <div class="container">
-      <div class="aximo-section-title center">
-        <h2>
-          Clients are always
-          <span class="aximo-title-animation">
-            satisfied with us
-            <span class="aximo-title-icon">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star2.png" alt="">
-            </span>
-          </span>
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="aximo-testimonial-wrap wow fadeInUpX" data-wow-delay="0.1s">
+      <div class="col-lg-5">
+        <div class="aximo-testimonial-column">
+          <div class="aximo-testimonial-wrap aximo-testimonial-wrap2">
             <div class="aximo-testimonial-rating">
               <ul>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
               </ul>
             </div>
             <div class="aximo-testimonial-data">
-              <h3>Super customer service!</h3>
-              <p>Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.</p>
+              <p>"I am impressed with their innovative ideas and forward-thinking approach. They have helped us embrace digital transformation."</p>
             </div>
             <div class="aximo-testimonial-author">
               <div class="aximo-testimonial-author-thumb">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/t_thumb1.png" alt="">
               </div>
               <div class="aximo-testimonial-author-data">
-                <p>William Jack <span>Founder@XYZ</span></p>
+                <p>Smith Align <span>Businessman</span></p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="aximo-testimonial-wrap wow fadeInUpX" data-wow-delay="0.2s">
+          <div class="aximo-testimonial-wrap aximo-testimonial-wrap2">
             <div class="aximo-testimonial-rating">
               <ul>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
               </ul>
             </div>
             <div class="aximo-testimonial-data">
-              <h3>Exceptional creativity and vision</h3>
-              <p>Working Mthemeus was a game-changer for our brand. Their exceptional creativity & vision breathed new life into our visual. The logo they perfectly captures our essence & has become instantly recognizable. We couldn't be happier the results!</p>
+              <p>"Aximo has been a game-changer for our startup. Their team guided us through the development of a custom software solution perfectly suited us."</p>
             </div>
             <div class="aximo-testimonial-author">
               <div class="aximo-testimonial-author-thumb">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/t_thumb2.png" alt="">
               </div>
               <div class="aximo-testimonial-author-data">
-                <p>Smith Align <span>Businessman</span></p>
+                <p> Willium Joe <span>VP of Marketing</span></p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="aximo-testimonial-wrap wow fadeInUpX" data-wow-delay="0.3s">
+          <div class="aximo-testimonial-wrap aximo-testimonial-wrap2">
             <div class="aximo-testimonial-rating">
               <ul>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.svg" alt=""></li>
               </ul>
             </div>
             <div class="aximo-testimonial-data">
-              <h3>Innovative and professional</h3>
-              <p>I can't say enough good things about them. Their team is not only incredibly talented but also highly professional. They listened to our ideas and brought to life in ways we couldn't have imagined. Their innovative approach and dedication to our project.</p>
+              <p>"Their ability to understand our unique needs and provide tailored solutions. Their team is friendly, approachable & always ready to go the extra mile."</p>
             </div>
             <div class="aximo-testimonial-author">
               <div class="aximo-testimonial-author-thumb">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/t_thumb3.png" alt="">
               </div>
               <div class="aximo-testimonial-author-data">
-                <p>Milano Joe <span>Creative Director</span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="aximo-testimonial-wrap wow fadeInUpX" data-wow-delay="0.4s">
-            <div class="aximo-testimonial-rating">
-              <ul>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-                <li><i class="icon-star"></i></li>
-              </ul>
-            </div>
-            <div class="aximo-testimonial-data">
-              <h3>Transformed our brand</h3>
-              <p>Our partnership with Mthemeus transformed our brand from ordinary to extraordinary. Their branding expertise and design work elevated our marketing materials to a whole new level. Our customers have taken notice, and boost in brand recognition.</p>
-            </div>
-            <div class="aximo-testimonial-author">
-              <div class="aximo-testimonial-author-thumb">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/t_thumb4.png" alt="">
-              </div>
-              <div class="aximo-testimonial-author-data">
-                <p>Danial Mark <span>Marketing Director</span></p>
+                <p>Adrew Maslo <span>Head of X company</span></p>
               </div>
             </div>
           </div>
         </div>
 
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- End section -->
+
+<div class="section aximo-section-padding">
+  <div class="container">
+    <div class="aximo-section-title center clash-grotesk">
+      <h2>
+        Ask us if you have doubts or questions
+      </h2>
+    </div>
+    <div class="aximo-accordion-wrap aximo-accordion-wrap2" id="aximo-accordion">
+      <div class="aximo-accordion-column wow fadeInUpX" data-wow-delay=".1s">
+        <div class="aximo-accordion-item open">
+          <div class="aximo-accordion-header">
+            <h3>What is vision for the future?</h3>
+            <div class="aximo-accordion-icon active">
+              <i class="icon-minus"></i>
+            </div>
+            <div class="aximo-accordion-icon inactive">
+              <i class="icon-plus"></i>
+            </div>
+          </div>
+          <div class="aximo-accordion-body">
+            <p>Our vision is describe your long-term vision or goals. We're committed to explain how your company plans.</p>
+          </div>
+        </div>
+        <div class="aximo-accordion-item">
+          <div class="aximo-accordion-header">
+            <h3>Do you offer free resources?</h3>
+            <div class="aximo-accordion-icon active">
+              <i class="icon-minus"></i>
+            </div>
+            <div class="aximo-accordion-icon inactive">
+              <i class="icon-plus"></i>
+            </div>
+          </div>
+          <div class="aximo-accordion-body">
+            <p>Yes, we offer a range of free resources. Check out our [resources page for more information.</p>
+          </div>
+        </div>
+        <div class="aximo-accordion-item">
+          <div class="aximo-accordion-header">
+            <h3>Can help to find investors?</h3>
+            <div class="aximo-accordion-icon active">
+              <i class="icon-minus"></i>
+            </div>
+            <div class="aximo-accordion-icon inactive">
+              <i class="icon-plus"></i>
+            </div>
+          </div>
+          <div class="aximo-accordion-body">
+            <p>Yes, we have a strong network of investors and can facilitate introductions. Our expertise in fundraising.</p>
+          </div>
+        </div>
+      </div>
+      <div class="aximo-accordion-column wow fadeInUpX" data-wow-delay="0.2s">
+        <div class="aximo-accordion-item">
+          <div class="aximo-accordion-header">
+            <h3>Is Aximo open to collaborations?</h3>
+            <div class="aximo-accordion-icon active">
+              <i class="icon-minus"></i>
+            </div>
+            <div class="aximo-accordion-icon inactive">
+              <i class="icon-plus"></i>
+            </div>
+          </div>
+          <div class="aximo-accordion-body">
+            <p>Absolutely! We're always open to exploring partnership opportunities that align with our mission and benefit both.</p>
+          </div>
+        </div>
+        <div class="aximo-accordion-item">
+          <div class="aximo-accordion-header">
+            <h3>How does pricing work?</h3>
+            <div class="aximo-accordion-icon active">
+              <i class="icon-minus"></i>
+            </div>
+            <div class="aximo-accordion-icon inactive">
+              <i class="icon-plus"></i>
+            </div>
+          </div>
+          <div class="aximo-accordion-body">
+            <p>Our pricing model, whether it's subscription-based, equity-based, or project-based.</p>
+          </div>
+        </div>
+        <div class="aximo-accordion-item">
+          <div class="aximo-accordion-header">
+            <h3>How can I get in touch with Aximo?</h3>
+            <div class="aximo-accordion-icon active">
+              <i class="icon-minus"></i>
+            </div>
+            <div class="aximo-accordion-icon inactive">
+              <i class="icon-plus"></i>
+            </div>
+          </div>
+          <div class="aximo-accordion-body">
+            <p>By adopting and implementing strategies, we not only help survive but also thrive in the face of uncertainty.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <!-- End section -->
+</div>
+<!-- End section -->
 
-  <div class="aximo-auto-slider-section">
-    <div class="swiper aximo-auto-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="aximo-auto-slider-item">
-            <h3>Let's create new experiences</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star3.png" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-auto-slider-item">
-            <h3>Let's create new experiences</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star3.png" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-auto-slider-item">
-            <h3>Let's create new experiences</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star3.png" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-auto-slider-item">
-            <h3>Let's create new experiences</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star3.png" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-auto-slider-item">
-            <h3>Let's create new experiences</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star3.png" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-auto-slider-item">
-            <h3>Let's create new experiences</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star3.png" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-auto-slider-item">
-            <h3>Let's create new experiences</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star3.png" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="aximo-auto-slider-item">
-            <h3>Let's create new experiences</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star3.png" alt="">
-          </div>
-        </div>
-      </div>
+<div class="aximo-cta-section aximo-section-padding extra-side-margin position-relative">
+  <div class="container">
+    <div class="aximo-cta-wrap">
+      <h2>
+        Join us on your path to future success
+      </h2>
+      <a class="aximo-default-btn wow fadeInUpX" data-wow-delay="0s" href="contact-us.html">
+        <span class="aximo-label-up">Contact Us</span>
+        <span class="aximo-label-up">Contact Us</span>
+      </a>
     </div>
   </div>
-  <!-- End section -->
-
-  <div class="section aximo-section-padding3">
-    <div class="container">
-      <div class="aximo-section-title center">
-        <h2>
-          We have a team of
-          <span class="aximo-title-animation">
-            creative people
-            <span class="aximo-title-icon">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star2.png" alt="">
-            </span>
-          </span>
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-xl-3 col-md-6">
-          <div class="aximo-team-wrap wow fadeInUpX" data-wow-delay="0.1s">
-            <div class="aximo-team-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team1.png" alt="">
-              <div class="aximo-social-icon team-social">
-                <ul>
-                  <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i class="icon-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://facebook.com/" target="_blank">
-                      <i class="icon-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <i class="icon-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="icon-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="aximo-team-data">
-              <a href="single-team.html">
-                <h3>Andrew Mark</h3>
-              </a>
-              <p>Creative Director</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-          <div class="aximo-team-wrap wow fadeInUpX" data-wow-delay="0.2s">
-            <div class="aximo-team-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team2.png" alt="">
-              <div class="aximo-social-icon team-social">
-                <ul>
-                  <li>
-                    <a href="">
-                      <i class="icon-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="aximo-team-data">
-              <a href="single-team.html">
-                <h3>Jack Taylor</h3>
-              </a>
-              <p>Senior Designer</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-          <div class="aximo-team-wrap wow fadeInUpX" data-wow-delay="0.3s">
-            <div class="aximo-team-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team3.png" alt="">
-              <div class="aximo-social-icon team-social">
-                <ul>
-                  <li>
-                    <a href="">
-                      <i class="icon-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="aximo-team-data">
-              <a href="single-team.html">
-                <h3>Martine Joy</h3>
-              </a>
-              <p>Project Manager</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-          <div class="aximo-team-wrap wow fadeInUpX" data-wow-delay="0.4s">
-            <div class="aximo-team-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team4.png" alt="">
-              <div class="aximo-social-icon team-social">
-                <ul>
-                  <li>
-                    <a href="">
-                      <i class="icon-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <i class="icon-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="aximo-team-data">
-              <a href="single-team.html">
-                <h3>Adam Straw</h3>
-              </a>
-              <p>Web Developer</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
+  <div class="aximo-cta-shape1">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/shape4.png" alt="">
   </div>
-  <!-- End section -->
+  <div class="aximo-cta-shape2">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v2/star.png" alt="">
+  </div>
+</div>
+<!-- End section -->
+
+</div>
 
 
-
-
-  <!-- Footer  -->
-
-  <footer class="aximo-footer-section dark-bg">
-    <div class="container">
-      <div class="aximo-footer-top aximo-section-padding">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="aximo-default-content light position-relative">
-              <h2>
-                <span class="aximo-title-animation">
-                  Let's start a 
-                  <span class="aximo-title-icon">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/star2.png" alt="">
-                  </span>
-                </span>
-                project together
-              </h2>
-              <p>We work closely with our clients to understand their objectives, target audience, and unique needs. We use our creative skills to translate these requirements and practical design solutions.</p>
-              <div class="aximo-info-wrap">
-                <div class="aximo-info">
-                  <ul>
-                    <li>Give us a call:</li>
-                    <li><a href="">(123) 456-7890</a></li>
-                  </ul>
-                </div>
-                <div class="aximo-info">
-                  <ul>
-                    <li>Send us an email:</li>
-                    <li><a href="">info@mthemeus.com</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="aximo-social-icon social-large">
-                <ul>
-                  <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i class="icon-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://facebook.com/" target="_blank">
-                      <i class="icon-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <i class="icon-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="icon-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="aximo-hero-shape aximo-footer-shape">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/v1/shape1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5">
-            <div class="aximo-form-wrap">
-              <h4>Send us a message</h4>
-              <form action="#">
-                <div class="aximo-form-field">
-                  <input type="text" placeholder="Your name">
-                </div>
-                <div class="aximo-form-field">
-                  <input type="email" placeholder="Your email address">
-                </div>
-                <div class="aximo-form-field">
-                  <input type="text" placeholder="+088-234-6849">
-                </div>
-                <div class="aximo-form-field">
-                  <textarea name="textarea" placeholder="Write your message here..."></textarea>
-                </div>
-                <button id="aximo-submit-btn" type="submit">Send message <span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-right3.svg" alt=""></span></button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="aximo-footer-bottom">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="aximo-footer-logo">
-              <a href="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo-white.svg" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="aximo-copywright one">
-              <p> &copy; Copyright 2023, All Rights Reserved by Mthemeus</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </footer>
-  
-  <?php wp_footer(); ?>
-</body>
-</html>
+<?php get_footer(); ?>
